@@ -30,3 +30,13 @@ let biciclette = [
     },
 ];
 
+let peso_minore = biciclette[0];
+
+for (let i = 1; i < biciclette.length; i++) {
+    if (biciclette[i].peso < peso_minore.peso) {
+        peso_minore = biciclette[i];
+    }
+}
+
+console.log(`La bicicletta meno pesante è ${peso_minore.nome} dal peso di ${peso_minore.peso} kg`);
+
