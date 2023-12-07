@@ -46,7 +46,7 @@ function generaSquadre() {
     let squadre = [];
     let nomi_squadre = ["Real Madrid", "Barcellona", "Manchester city", "Paris Saint Germain", "Bayern Monaco", "Milan", "Inter", "Ajax", "Chelsea", "Crotone", "Ascoli"];
 
-    for (let i = 0; i < nomi_squadre.lenght; i++) {
+    for (let i = 0; i < nomi_squadre.length; i++) {
         let squadra = {
             nome: nomi_squadre[i],
             falli: Math.floor( Math.random() * 100),
@@ -59,7 +59,6 @@ function generaSquadre() {
 }
 
 function stampaSquadre(...squadre) {
-    console.log("Squadre:");
     squadre.forEach(squadra => {
         let {nome, punti, falli} = squadra;
         console.log(`${nome},Falli : ${falli} ,Punti: ${punti}, `);
