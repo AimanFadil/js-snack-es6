@@ -40,3 +40,12 @@ for (let i = 1; i < biciclette.length; i++) {
 
 console.log(`La bicicletta meno pesante è ${peso_minore.nome} dal peso di ${peso_minore.peso} kg`);
 
+//SNACK
+
+function generaSquadre() {
+    let squadre = [];
+    let nomi_squadre = ["Real Madrid", "Barcellona", "Manchester city", "Paris Saint Germain", "Bayern Monaco", "Milan", "Inter", "Ajax", "Chelsea", "Crotone", "Ascoli"];
+
+    
+}
+
