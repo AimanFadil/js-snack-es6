@@ -2,31 +2,31 @@
 let biciclette = [
     {
         nome: "Atala", 
-        peso: 10,
+        peso: 13,
     },
     {
         nome: "Basso", 
-        peso: 11.0
+        peso: 17,
     },
     {
         nome: "Bianchi", 
-        peso: 8.0
+        peso: 8,
     },
     {
         nome: "Fantic", 
-        peso: 10.0
+        peso: 19,
     },
     {
         nome: "Triestina", 
-        peso: 10,
+        peso: 12,
     },
     {
         nome: "Olympia", 
-        peso: 10,
+        peso: 14,
     },
     {
         nome: "Brinke Bike", 
-        peso: 10,
+        peso: 16,
     },
 ];
 
