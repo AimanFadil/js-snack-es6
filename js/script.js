@@ -46,6 +46,14 @@ function generaSquadre() {
     let squadre = [];
     let nomi_squadre = ["Real Madrid", "Barcellona", "Manchester city", "Paris Saint Germain", "Bayern Monaco", "Milan", "Inter", "Ajax", "Chelsea", "Crotone", "Ascoli"];
 
-    
+    for (let i = 0; i < nomi_squadre.lenght; i++) {
+        let squadra = {
+            nome: nomi_squadre[i],
+            punti: Math.floor( Math.random() * 100),
+            falli: Math.floor( Math.random() * 100),
+        };
+        squadre.push(squadra);
+    }
+    return squadre;
 }
 
