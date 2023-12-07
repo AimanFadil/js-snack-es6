@@ -65,3 +65,6 @@ function stampaSquadre(...squadre) {
         console.log(`${nome},Falli : ${falli} ,Punti: ${punti}, `);
     });
 }
+
+let squadre = generaSquadre();
+stampaSquadre(...squadre);
