@@ -49,11 +49,19 @@ function generaSquadre() {
     for (let i = 0; i < nomi_squadre.lenght; i++) {
         let squadra = {
             nome: nomi_squadre[i],
-            punti: Math.floor( Math.random() * 100),
             falli: Math.floor( Math.random() * 100),
+            punti: Math.floor( Math.random() * 100),
+            
         };
         squadre.push(squadra);
     }
     return squadre;
 }
 
+function stampaSquadre(...squadre) {
+    console.log("Squadre:");
+    squadre.forEach(squadra => {
+        let {nome, punti, falli} = squadra;
+        console.log(`${nome},Falli : ${falli} ,Punti: ${punti}, `);
+    });
+}
